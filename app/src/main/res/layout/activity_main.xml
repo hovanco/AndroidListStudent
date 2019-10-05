@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Make Button ADD    -->
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#0000FF"
+        android:text="Add" />
+
+    <!-- Make Button DELETE    -->
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#000080"
+        android:text="Delete" />
+
+    <!-- Make to do list have item 0 => item 9    -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#800080"/>
+
+
+</LinearLayout>
